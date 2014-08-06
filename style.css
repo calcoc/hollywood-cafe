@@ -40,6 +40,20 @@ h1,h2,h3{
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	}
+	
+h1{
+	position: absolute;
+	top: -20px;
+	left: 40px;
+	}
+	
+h2{
+	width: 700px;
+	height:300px;
+	background-image: url(images/top/main_image.jpg);
+	text-indent: -9999px;
+	}
+	
 hr {
 	display: none;
 	}
@@ -53,6 +67,7 @@ hr {
 	background-color: #FFFFFF;
 	background-image: url(images/top/body_bg.jpg);
 	background-repeat: repeat-y;
+	position: relative;
 	}
 	
 #pageTop{
@@ -76,9 +91,54 @@ hr {
 	padding-left:20px;
 	float:right;
 	}
+	
+#contentWrap{
+	clear: both;
+	}
 /*レイアウト設定ここまで*/ 
 /*リンクトップへのリンクテキストここから*/
 #gotoTop{
-	clear:both;
+	clear: both;
 	}
 /*リンクトップへのリンクテキストここまで*/
+
+/*SITEMAPへのリンクテキストここから*/
+#siteMap{
+	font-size: 0.7em;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	position:absolute;
+	top: 35px;
+	right: 35px;
+	}
+	
+#siteMap a{
+	background-image: url(images/top/icon_arrow_02.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	padding-left: 13px;
+	}
+/*SITEMAPへのリンクテキストここまで*/
+
+/*nav*/
+#globalNavi{
+	list-style-type: none;
+	width: 660px;
+	height: 30px;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 0px 20px;
+	background-image: url(images/top/navi_bg.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: absolute;
+	top: 320px;
+	left:40px;
+	}
+	
+#globalNavi li{
+	margin: 0px 10px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	}
+/*nav*/
