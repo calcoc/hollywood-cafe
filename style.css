@@ -142,3 +142,109 @@ hr {
 	float: left;
 	}
 /*nav*/
+/*top*/
+#welcomeMessage{
+	color: #999999;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #FFFFFF;
+	}
+	
+#welcomeMessage img{
+	float:right;
+	margin-left:25px;
+	}
+/*top end*/
+
+/*menu*/
+
+#topRecommendedMenu{
+	clear:both;
+	margin:0px;
+	padding:0px 0px 10px 0px;
+	background-image:url(images/top/recommend_bg_b.gif);
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	}
+	
+#topRecommendedMenu p{
+	margin:0px;
+	padding:0px;
+	}
+		
+#topRecommendedMenu strong{
+	color:#663300;
+	font-weight: normal;
+	}
+	
+#topRecommendedMenu dt,
+#topRecommendedMenu dd{
+	background-color:#EEEEEE;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#topRecommendedMenu dd ul{
+	font-size: 0.8em;
+	line-height: 1.5em;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display:none;
+	}
+	
+#topRecommendedMenu dd ul li img{
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#topRecommendedMenu dd ul li dl{
+	width:240px;
+	float:right;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#topRecommendedMenu dd ul li{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	clear:both;
+	}
+#topRecommendedMenu dd ul li dl dt{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 180px;
+	float: left;
+	
+	}
+#topRecommendedMenu dd ul li dl dd.price{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 60px;
+	float: right;
+	text-align:right;
+	color:#663300;
+	}
+#topRecommendedMenu dd ul li dl dd.menuDate{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	clear:both;
+	border-top-width: 1px;
+	border-top-style:dotted;
+	border-top-color:#999999;
+	}
+	
+#topRecommendedMenuTitle{
+	background-image:url(images/top/recommend_bg_t.gif);
+	background-repeat:no-repeat;
+	background-position:left top;
+	}
+	
+#topRecommendedMenuTitle img{
+	margin:15px 0px 0px 10px;
+	}
+
+/*menu end*/
